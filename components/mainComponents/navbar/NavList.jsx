@@ -18,9 +18,9 @@ function NavList() {
           </Link>
         </MenuHandler>
         <MenuList>
-          <MenuItem>Action 1</MenuItem>
-          <MenuItem>Action 2</MenuItem>
-          <MenuItem>Action 3</MenuItem>
+          <MenuItem>Action</MenuItem>
+          <MenuItem>Another Action </MenuItem>
+          <MenuItem>Another Action </MenuItem>
         </MenuList>
       </Menu>
       <Menu>
@@ -31,9 +31,9 @@ function NavList() {
           </Link>
         </MenuHandler>
         <MenuList>
-          <MenuItem>Action 1</MenuItem>
-          <MenuItem>Action 2</MenuItem>
-          <MenuItem>Action 3</MenuItem>
+          <MenuItem>Action </MenuItem>
+          <MenuItem>Another Action</MenuItem>
+          <MenuItem>Another Action</MenuItem>
         </MenuList>
       </Menu>
     </ul>
