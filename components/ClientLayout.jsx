@@ -1,15 +1,8 @@
-"use client";
-import { ThemeProvider } from "@/clientSide";
-import HomeNav from "./mainComponents/navbar/HomeNav";
-
+'use client'
+import { ThemeProvider } from '@/clientSide'
 
 const ClientLayout = ({ children }) => {
-  return (
-    <ThemeProvider>
-      <HomeNav />
-      {children}
-    </ThemeProvider>
-  );
-};
+  return <ThemeProvider>{children}</ThemeProvider>
+}
 
-export default ClientLayout;
+export default ClientLayout
