@@ -1,6 +1,6 @@
 import {
   Navbar,
-  MobileNav,
+
   Typography,
   Button,
   IconButton,
@@ -17,7 +17,6 @@ import Image from "next/image";
 
 export {
   Navbar,
-  MobileNav,
   Typography,
   Button,
   IconButton,
