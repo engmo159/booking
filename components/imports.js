@@ -1,6 +1,6 @@
+'use client'
 import {
   Navbar,
-
   Typography,
   Button,
   IconButton,
@@ -9,11 +9,11 @@ import {
   MenuHandler,
   MenuItem,
   MenuList,
-} from "@material-tailwind/react";
-import { IoClose, IoMenu, IoChevronDown, IoChevronUp } from "react-icons/io5";
-import { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
+} from '@material-tailwind/react'
+import { IoClose, IoMenu, IoChevronDown, IoChevronUp } from 'react-icons/io5'
+import { useState, useEffect } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export {
   Navbar,
@@ -33,4 +33,4 @@ export {
   useEffect,
   Link,
   Image,
-};
+}
