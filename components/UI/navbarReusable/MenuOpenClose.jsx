@@ -1,11 +1,10 @@
-"use client";
-import { IconButton, useState, useEffect } from "@/components/imports";
+import { IconButton } from "@/components/imports";
 
-const MobileMenu = ({ openNav, setOpenNav }) => {
+const MenuOpenClose = ({ setOpenNav, openNav }) => {
   return (
     <IconButton
       variant="text"
-      className="h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+      className="h-6 w-6 flex flex-1 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
       ripple={false}
       onClick={() => setOpenNav(!openNav)}>
       {openNav ? (
@@ -14,7 +13,7 @@ const MobileMenu = ({ openNav, setOpenNav }) => {
           fill="none"
           className="h-6 w-6"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="white"
           strokeWidth={2}>
           <path
             strokeLinecap="round"
@@ -27,7 +26,7 @@ const MobileMenu = ({ openNav, setOpenNav }) => {
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
           fill="none"
-          stroke="currentColor"
+          stroke="white"
           strokeWidth={2}>
           <path
             strokeLinecap="round"
@@ -40,4 +39,4 @@ const MobileMenu = ({ openNav, setOpenNav }) => {
   );
 };
 
-export default MobileMenu;
+export default MenuOpenClose;
